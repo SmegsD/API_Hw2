@@ -1,0 +1,200 @@
+swagger: "2.0"
+info:
+  version: "0.0.1"
+  title: Hello World App
+# during dev, should point to your local machine
+host: localhost:10010
+# basePath prefixes all resource paths
+basePath: /
+#
+schemes:
+  # tip: remove http to make production-grade
+  - http
+  - https
+# format of bodies a client can send (Content-Type)
+consumes:
+  - application/json
+# format of the responses to the client (Accepts)
+produces:
+  - application/json
+paths:
+  /puts:
+    # binds a127 app logic to a route
+    x-swagger-router-controller: hello_world
+    put:
+      description: adds a movie
+      # used as the method name of the controller
+      operationId: puts
+      parameters:
+        - name: MovieID
+          in: body
+          description: The name of the person to whom to say hello
+          required: true
+          schema:
+            $ref: "#/definitions/MovieId"
+      responses:
+        "200":
+          description: Success
+          schema:
+            # a pointer to a definition
+            $ref: "#/definitions/PutsResponse"
+        # responses may fall through to errors
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+
+  /Posts:
+    # binds a127 app logic to a route
+    x-swagger-router-controller: hello_world
+    post:
+      description: adds movies
+      # used as the method name of the controller
+      operationId: posts
+      parameters:
+        - name: MovieName
+          in: body
+          description: name of movie
+          required: true
+          schema:
+            $ref: "#/definitions/MovieName"
+      responses:
+        "200":
+          description: Success
+          schema:
+            # a pointer to a definition
+            $ref: "#/definitions/PostsResponse"
+        # responses may fall through to errors
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+
+  /deletes:
+    # binds a127 app logic to a route
+    x-swagger-router-controller: hello_world
+    delete:
+      description: Returns 'Hello' to the caller
+      # used as the method name of the controller
+      operationId: deletes
+      parameters:
+        - name: name
+          in: query
+          description: The name of the person to whom to say hello
+          required: false
+          type: string
+      responses:
+        "200":
+          description: Success
+          schema:
+            # a pointer to a definition
+            $ref: "#/definitions/DeleteResponse"
+        # responses may fall through to errors
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+
+
+  /Gets:
+    # binds a127 app logic to a route
+    x-swagger-router-controller: hello_world
+    get:
+      description: Returns 'Hello' to the caller
+      # used as the method name of the controller
+      operationId: gets
+      parameters:
+        - name: name
+          in: query
+          description: The name of the person to whom to say hello
+          required: false
+          type: string
+      responses:
+        "200":
+          description: Success
+          schema:
+            # a pointer to a definition
+            $ref: "#/definitions/GetResponse"
+        # responses may fall through to errors
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+
+  /hello:
+    # binds a127 app logic to a route
+    x-swagger-router-controller: hello_world
+    get:
+      description: Returns 'Hello' to the caller
+      # used as the method name of the controller
+      operationId: hello
+      parameters:
+        - name: name
+          in: query
+          description: The name of the person to whom to say hello
+          required: false
+          type: string
+      responses:
+        "200":
+          description: Success
+          schema:
+            # a pointer to a definition
+            $ref: "#/definitions/HelloWorldResponse"
+        # responses may fall through to errors
+        default:
+          description: Error
+          schema:
+            $ref: "#/definitions/ErrorResponse"
+
+  /swagger:
+    x-swagger-pipe: swagger_raw
+# complex objects have schema definitions
+definitions:
+  MovieName:
+    required:
+     - name
+    properties:
+      name:
+        type: string
+  MovieId:
+    required:
+     - id
+    properties:
+      id:
+        type: integer
+  PutsResponse:
+    required:
+     - message
+    properties:
+      message:
+        type: string
+  PostsResponse:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+  DeleteResponse:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+  HelloWorldResponse:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+  ErrorResponse:
+    required:
+      - message
+    properties:
+      message:
+        type: string
+  GetResponse:
+    required:
+      - message
+    properties:
+      message:
+        type: string
