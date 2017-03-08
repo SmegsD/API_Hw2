@@ -48,14 +48,18 @@ function hello(req, res) {
 }
 
 function gets(req, res) {
-    res.json(util.format('using /gets'));
+    var First = req.swagger.params.name.value || 'No query name was given';
+    res.json({ message: First, description: 'using /gets', headers: req.headers});
+
 }
 
 function deletes(req, res){
-    res.json(util.format('using /deletes'));
+    res.json({ message: "First", description: 'using /deletes', headers: req.headers});
+    //res.json(util.format('using /deletes'));
 }
 
 function posts(req, res){
+    res.json({ message: "First", description: 'using /posts', headers: req.headers});
     //res.json(util.format('using /post'));
     var movieID = req.swagger.params.MovieName.value;
     var movie = util.format('Movie Name: ', movieID);
@@ -64,8 +68,13 @@ function posts(req, res){
 
 function puts(req, res){
     //res.json(util.format('using /puts'));
+
+    res.json({ message: "First", description: 'using /puts', headers: req.headers});
     var movieName = req.swagger.params.MovieID.value;
     var movie = util.format('Movie ID:', movieName);
     res.json(movie)
 }
+
+
+
 

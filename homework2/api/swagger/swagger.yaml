@@ -163,23 +163,41 @@ definitions:
       id:
         type: integer
   PutsResponse:
-    required:
-     - message
+    type: object
     properties:
       message:
-        type: string
+        type: integer
+        description: returns 1 if successful
+      description:
+          type: string
+          description: a message
+    required:
+       - message
+       - description
   PostsResponse:
-    required:
-      - message
+    type: object
     properties:
       message:
         type: string
+        description: returns 1 if successful
+      description:
+          type: string
+          description: a message
+    required:
+       - message
+       - description
   DeleteResponse:
-    required:
-      - message
+    type: object
     properties:
       message:
         type: string
+        description: returns 1 if successful
+      description:
+          type: string
+          description: a message
+    required:
+       - message
+       - description
   HelloWorldResponse:
     required:
       - message
@@ -193,8 +211,14 @@ definitions:
       message:
         type: string
   GetResponse:
-    required:
-      - message
+    type: object
     properties:
       message:
         type: string
+        description: returns 1 if successful
+      description:
+        type: string
+        description: a message
+    required:
+      - message
+      - description
