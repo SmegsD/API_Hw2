@@ -1,382 +1,44 @@
 {
-	"id": "07bef496-dd03-b47f-5675-a451a4c6b580",
-	"name": "Hw2_APIs",
+	"id": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+	"name": "API_hw2_REV",
 	"description": "",
 	"order": [
-		"6639b8f0-191f-e2e5-5cc4-383224047c4d",
-		"c7b5bf6b-c965-d704-f9fe-2544ae9b94b6",
-		"b87d3c28-1124-6a2b-3b90-0c44793eec86",
-		"85d5f2c2-136e-4fbd-3b3d-22f293def4c3",
-		"ad0b12bb-e72e-be4c-67b6-a71dc2aa9509",
-		"b038fc48-9a76-e5fd-5e72-37fce65fdb23",
-		"8428ac22-7314-cdda-fea4-729f777ab728",
-		"dca3226f-39be-ba56-2c34-ecc01da65e14",
-		"cce22f92-3cd5-05a3-f9b0-693cc87bef26",
-		"df1acaa6-192c-37be-c3e1-669ff6d15ba7",
-		"3409ba53-e8b8-7333-5a77-4191af29325a",
-		"80d60267-9dc0-4771-c7af-061cbdcb5eb6",
-		"f7e27f05-ac11-0db0-084a-552d72ee977d",
-		"90874a6e-14bc-231d-c325-a4c6c9abf66a",
-		"a918cc58-7dd6-0add-459e-a4119d0c89d7",
-		"6a709841-1821-c3e7-2d85-ec7a383a82f7"
+		"fe0b8a03-f4fb-aae5-ef47-08b0c111f43b",
+		"0d0e7096-1792-a567-216a-e4b089b75ffb",
+		"ee21c030-b1bb-0bd5-b996-798590b57d9d",
+		"9d11967f-e3ce-6bc0-6ca5-8da06d5d806b",
+		"d22db436-54f2-e6c3-aa91-c420fffb1374",
+		"9675b2b9-914f-eee4-d7c5-6c18c32c84e6",
+		"a9ab5f2f-6713-12c1-ccf9-d9ab9cfe33d9",
+		"eb59b826-d2a0-743b-2b98-4c2aeeb52f32",
+		"872b198c-00d7-4d67-3ee1-cbd772b0d8c6",
+		"a798e581-6ce3-9be3-f935-83a3611e49ba",
+		"e5cd81b0-3e9b-ef72-b1f1-7172714ac6b8",
+		"2ee3d105-2d0c-615a-0da6-2e026e866769",
+		"dd75a776-e2a4-a446-9b18-3f8b70f4b5fb",
+		"ececda61-bf56-9d3d-fd29-ab45bd81db07",
+		"6d92c621-ec63-566f-b896-aff57f09af92",
+		"c5f08b09-6e6c-a7be-4a53-4850b2975b3c"
 	],
 	"folders": [],
-	"timestamp": 1488085242709,
+	"timestamp": 1489306151035,
 	"owner": "1525971",
 	"public": false,
 	"requests": [
 		{
-			"id": "3409ba53-e8b8-7333-5a77-4191af29325a",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://drews122002-test.apigee.net/homework2/deletes",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "PUT",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
-			"data": [],
-			"dataMode": "raw",
-			"name": "http://drews122002-test.apigee.net/homework2/puts",
-			"description": "puts/deletes",
-			"descriptionFormat": "html",
-			"time": 1488085721224,
-			"version": 2,
-			"responses": [
-				{
-					"status": "",
-					"responseCode": {
-						"code": 405,
-						"name": "Method Not Allowed",
-						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
-						"fromServer": true
-					},
-					"time": 60,
-					"headers": [
-						{
-							"key": "Access-Control-Allow-Origin",
-							"value": "*",
-							"name": "Access-Control-Allow-Origin",
-							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-						},
-						{
-							"key": "Allow",
-							"value": "DELETE",
-							"name": "Allow",
-							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"name": "Connection",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"key": "Content-Length",
-							"value": "130",
-							"name": "Content-Length",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json",
-							"name": "Content-Type",
-							"description": "The mime type of this content"
-						},
-						{
-							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:08:30 GMT",
-							"name": "Date",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"key": "Server",
-							"value": "Apigee Router",
-							"name": "Server",
-							"description": "A name for the server"
-						},
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"name": "X-Powered-By",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "{\"message\":\"Route defined in Swagger specification (/deletes) but there is no defined put operation.\",\"allowedMethods\":[\"DELETE\"]}",
-					"language": "json",
-					"previewType": "text",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"responseSize": {
-						"body": 130,
-						"header": 242
-					},
-					"mimeType": "text",
-					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9kZWxldGVzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBwdXQgb3BlcmF0aW9uLiIsImFsbG93ZWRNZXRob2RzIjpbIkRFTEVURSJdfQ==",
-					"state": {
-						"size": "normal"
-					},
-					"id": "65ea90ef-54f0-a484-dbbc-9bac31841530",
-					"name": "put/deletes resp",
-					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/deletes",
-						"headers": [
-							{
-								"key": "Content-Type",
-								"name": "Content-Type",
-								"value": "application/json",
-								"disabled": false
-							}
-						],
-						"data": "{\"id\" : 1234}",
-						"method": "PUT",
-						"dataMode": "params"
-					}
-				}
-			],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"rawModeData": "{\"id\" : 1234}"
-		},
-		{
-			"id": "6639b8f0-191f-e2e5-5cc4-383224047c4d",
+			"id": "0d0e7096-1792-a567-216a-e4b089b75ffb",
 			"headers": "",
-			"url": "http://drews122002-test.apigee.net/homework2/gets",
+			"url": "http://drews122002-test.apigee.net/homework2.2/puts",
 			"pathVariables": {},
 			"preRequestScript": null,
 			"method": "GET",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
 			"data": null,
 			"dataMode": "params",
-			"name": "http://drews122002-test.apigee.net/homework2/gets",
-			"description": "get/gets",
+			"name": "http://drews122002-test.apigee.net/homework2.2/puts",
+			"description": "get/puts",
 			"descriptionFormat": "html",
-			"time": 1488085269817,
-			"version": 2,
-			"responses": [
-				{
-					"status": "",
-					"responseCode": {
-						"code": 200,
-						"name": "OK",
-						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action.",
-						"fromServer": true
-					},
-					"time": 604,
-					"headers": [
-						{
-							"key": "Access-Control-Allow-Origin",
-							"value": "*",
-							"name": "Access-Control-Allow-Origin",
-							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"name": "Connection",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"key": "Content-Length",
-							"value": "13",
-							"name": "Content-Length",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json; charset=utf-8",
-							"name": "Content-Type",
-							"description": "The mime type of this content"
-						},
-						{
-							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:00:52 GMT",
-							"name": "Date",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"key": "ETag",
-							"value": "W/\"d-4pFxqosA+nqWgupcjqAuOw\"",
-							"name": "ETag",
-							"description": "An identifier for a specific version of a resource, often a message digest"
-						},
-						{
-							"key": "Server",
-							"value": "Apigee Router",
-							"name": "Server",
-							"description": "A name for the server"
-						},
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"name": "X-Powered-By",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "\"using /gets\"",
-					"language": "json",
-					"previewType": "text",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"responseSize": {
-						"body": 13,
-						"header": 261
-					},
-					"mimeType": "text",
-					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, InVzaW5nIC9nZXRzIg==",
-					"state": {
-						"size": "normal"
-					},
-					"id": "1c1c60f4-860e-ed53-8b58-f283f0d3ba20",
-					"name": "get/gets resp",
-					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/gets",
-						"headers": [],
-						"data": null,
-						"method": "GET",
-						"dataMode": "params"
-					}
-				}
-			],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "6a709841-1821-c3e7-2d85-ec7a383a82f7",
-			"headers": "",
-			"url": "http://drews122002-test.apigee.net/homework2/puts",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "DELETE",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
-			"data": null,
-			"dataMode": "params",
-			"name": "http://drews122002-test.apigee.net/homework2/deletes",
-			"description": "delete/puts",
-			"descriptionFormat": "html",
-			"time": 1488085860697,
-			"version": 2,
-			"responses": [
-				{
-					"status": "",
-					"responseCode": {
-						"code": 405,
-						"name": "Method Not Allowed",
-						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
-						"fromServer": true
-					},
-					"time": 59,
-					"headers": [
-						{
-							"key": "Access-Control-Allow-Origin",
-							"value": "*",
-							"name": "Access-Control-Allow-Origin",
-							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-						},
-						{
-							"key": "Allow",
-							"value": "PUT",
-							"name": "Allow",
-							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"name": "Connection",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"key": "Content-Length",
-							"value": "127",
-							"name": "Content-Length",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json",
-							"name": "Content-Type",
-							"description": "The mime type of this content"
-						},
-						{
-							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:10:46 GMT",
-							"name": "Date",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"key": "Server",
-							"value": "Apigee Router",
-							"name": "Server",
-							"description": "A name for the server"
-						},
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"name": "X-Powered-By",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "{\"message\":\"Route defined in Swagger specification (/puts) but there is no defined delete operation.\",\"allowedMethods\":[\"PUT\"]}",
-					"language": "json",
-					"previewType": "text",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"responseSize": {
-						"body": 127,
-						"header": 239
-					},
-					"mimeType": "text",
-					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9wdXRzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBkZWxldGUgb3BlcmF0aW9uLiIsImFsbG93ZWRNZXRob2RzIjpbIlBVVCJdfQ==",
-					"state": {
-						"size": "normal"
-					},
-					"id": "7354d166-8b48-82dc-5d18-2e1e3c9d0bc1",
-					"name": "delete/puts resp",
-					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/puts",
-						"headers": [],
-						"data": null,
-						"method": "DELETE",
-						"dataMode": "params"
-					}
-				}
-			],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "80d60267-9dc0-4771-c7af-061cbdcb5eb6",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://drews122002-test.apigee.net/homework2/posts",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "PUT",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
-			"data": [],
-			"dataMode": "raw",
-			"name": "http://drews122002-test.apigee.net/homework2/puts",
-			"description": "puts/posts\n",
-			"descriptionFormat": "html",
-			"time": 1488085758725,
+			"time": 1489306208565,
 			"version": 2,
 			"responses": [
 				{
@@ -388,1018 +50,6 @@
 						"fromServer": true
 					},
 					"time": 63,
-					"headers": [
-						{
-							"key": "Access-Control-Allow-Origin",
-							"value": "*",
-							"name": "Access-Control-Allow-Origin",
-							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-						},
-						{
-							"key": "Allow",
-							"value": "POST",
-							"name": "Allow",
-							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"name": "Connection",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"key": "Content-Length",
-							"value": "126",
-							"name": "Content-Length",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json",
-							"name": "Content-Type",
-							"description": "The mime type of this content"
-						},
-						{
-							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:09:08 GMT",
-							"name": "Date",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"key": "Server",
-							"value": "Apigee Router",
-							"name": "Server",
-							"description": "A name for the server"
-						},
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"name": "X-Powered-By",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "{\"message\":\"Route defined in Swagger specification (/Posts) but there is no defined put operation.\",\"allowedMethods\":[\"POST\"]}",
-					"language": "json",
-					"previewType": "text",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"responseSize": {
-						"body": 126,
-						"header": 240
-					},
-					"mimeType": "text",
-					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9Qb3N0cykgYnV0IHRoZXJlIGlzIG5vIGRlZmluZWQgcHV0IG9wZXJhdGlvbi4iLCJhbGxvd2VkTWV0aG9kcyI6WyJQT1NUIl19",
-					"state": {
-						"size": "normal"
-					},
-					"id": "7070ef13-ee72-6a2e-e10b-aacb9b82ace8",
-					"name": "put/posts",
-					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/posts",
-						"headers": [
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"enabled": true,
-								"description": "The mime type of this content",
-								"disabled": false
-							}
-						],
-						"data": "{\"id\" : 1234}",
-						"method": "PUT",
-						"dataMode": "raw"
-					}
-				}
-			],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"rawModeData": "{\"id\" : 1234}"
-		},
-		{
-			"id": "8428ac22-7314-cdda-fea4-729f777ab728",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://drews122002-test.apigee.net/homework2/gets",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "POST",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
-			"data": [],
-			"dataMode": "raw",
-			"name": "http://drews122002-test.apigee.net/homework2/posts",
-			"description": "posts/gets",
-			"descriptionFormat": "html",
-			"time": 1488085475735,
-			"version": 2,
-			"responses": [
-				{
-					"status": "",
-					"responseCode": {
-						"code": 405,
-						"name": "Method Not Allowed",
-						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
-						"fromServer": true
-					},
-					"time": 62,
-					"headers": [
-						{
-							"key": "Access-Control-Allow-Origin",
-							"value": "*",
-							"name": "Access-Control-Allow-Origin",
-							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-						},
-						{
-							"key": "Allow",
-							"value": "GET",
-							"name": "Allow",
-							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"name": "Connection",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"key": "Content-Length",
-							"value": "125",
-							"name": "Content-Length",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json",
-							"name": "Content-Type",
-							"description": "The mime type of this content"
-						},
-						{
-							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:05:53 GMT",
-							"name": "Date",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"key": "Server",
-							"value": "Apigee Router",
-							"name": "Server",
-							"description": "A name for the server"
-						},
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"name": "X-Powered-By",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "{\"message\":\"Route defined in Swagger specification (/Gets) but there is no defined post operation.\",\"allowedMethods\":[\"GET\"]}",
-					"language": "json",
-					"previewType": "text",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"responseSize": {
-						"body": 125,
-						"header": 239
-					},
-					"mimeType": "text",
-					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9HZXRzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBwb3N0IG9wZXJhdGlvbi4iLCJhbGxvd2VkTWV0aG9kcyI6WyJHRVQiXX0=",
-					"state": {
-						"size": "normal"
-					},
-					"id": "1289e82b-c32d-4b5e-836a-46f5ba3d8012",
-					"name": "post/gets resp",
-					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/gets",
-						"headers": [
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"enabled": true,
-								"description": "The mime type of this content",
-								"disabled": false
-							}
-						],
-						"data": "{\"name\" : \"Liar Liar\"}",
-						"method": "POST",
-						"dataMode": "raw"
-					}
-				}
-			],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"rawModeData": "{\"name\" : \"Liar Liar\"}"
-		},
-		{
-			"id": "85d5f2c2-136e-4fbd-3b3d-22f293def4c3",
-			"headers": "",
-			"url": "http://drews122002-test.apigee.net/homework2/deletes",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "GET",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
-			"data": null,
-			"dataMode": "params",
-			"name": "http://drews122002-test.apigee.net/homework2/gets",
-			"description": "get/deletes",
-			"descriptionFormat": "html",
-			"time": 1488085339481,
-			"version": 2,
-			"responses": [
-				{
-					"status": "",
-					"responseCode": {
-						"code": 405,
-						"name": "Method Not Allowed",
-						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
-						"fromServer": true
-					},
-					"time": 60,
-					"headers": [
-						{
-							"key": "Access-Control-Allow-Origin",
-							"value": "*",
-							"name": "Access-Control-Allow-Origin",
-							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-						},
-						{
-							"key": "Allow",
-							"value": "DELETE",
-							"name": "Allow",
-							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"name": "Connection",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"key": "Content-Length",
-							"value": "130",
-							"name": "Content-Length",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json",
-							"name": "Content-Type",
-							"description": "The mime type of this content"
-						},
-						{
-							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:02:08 GMT",
-							"name": "Date",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"key": "Server",
-							"value": "Apigee Router",
-							"name": "Server",
-							"description": "A name for the server"
-						},
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"name": "X-Powered-By",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "{\"message\":\"Route defined in Swagger specification (/deletes) but there is no defined get operation.\",\"allowedMethods\":[\"DELETE\"]}",
-					"language": "json",
-					"previewType": "text",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"responseSize": {
-						"body": 130,
-						"header": 242
-					},
-					"mimeType": "text",
-					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9kZWxldGVzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBnZXQgb3BlcmF0aW9uLiIsImFsbG93ZWRNZXRob2RzIjpbIkRFTEVURSJdfQ==",
-					"state": {
-						"size": "normal"
-					},
-					"id": "8ca402b1-987a-c15c-e013-6f600c928dff",
-					"name": "get/deletes resp",
-					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/deletes",
-						"headers": [],
-						"data": null,
-						"method": "GET",
-						"dataMode": "params"
-					}
-				}
-			],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "90874a6e-14bc-231d-c325-a4c6c9abf66a",
-			"headers": "",
-			"url": "http://drews122002-test.apigee.net/homework2/posts",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "DELETE",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
-			"data": null,
-			"dataMode": "params",
-			"name": "http://drews122002-test.apigee.net/homework2/deletes",
-			"description": "delete/post",
-			"descriptionFormat": "html",
-			"time": 1488085807590,
-			"version": 2,
-			"responses": [
-				{
-					"status": "",
-					"responseCode": {
-						"code": 405,
-						"name": "Method Not Allowed",
-						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
-						"fromServer": true
-					},
-					"time": 80,
-					"headers": [
-						{
-							"key": "Access-Control-Allow-Origin",
-							"value": "*",
-							"name": "Access-Control-Allow-Origin",
-							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-						},
-						{
-							"key": "Allow",
-							"value": "POST",
-							"name": "Allow",
-							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"name": "Connection",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"key": "Content-Length",
-							"value": "129",
-							"name": "Content-Length",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json",
-							"name": "Content-Type",
-							"description": "The mime type of this content"
-						},
-						{
-							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:09:58 GMT",
-							"name": "Date",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"key": "Server",
-							"value": "Apigee Router",
-							"name": "Server",
-							"description": "A name for the server"
-						},
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"name": "X-Powered-By",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "{\"message\":\"Route defined in Swagger specification (/Posts) but there is no defined delete operation.\",\"allowedMethods\":[\"POST\"]}",
-					"language": "json",
-					"previewType": "text",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"responseSize": {
-						"body": 129,
-						"header": 240
-					},
-					"mimeType": "text",
-					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9Qb3N0cykgYnV0IHRoZXJlIGlzIG5vIGRlZmluZWQgZGVsZXRlIG9wZXJhdGlvbi4iLCJhbGxvd2VkTWV0aG9kcyI6WyJQT1NUIl19",
-					"state": {
-						"size": "normal"
-					},
-					"id": "751a7265-d042-6a93-6f98-0b312acd27aa",
-					"name": "delete/posts resp",
-					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/posts",
-						"headers": [],
-						"data": null,
-						"method": "DELETE",
-						"dataMode": "params"
-					}
-				}
-			],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "a918cc58-7dd6-0add-459e-a4119d0c89d7",
-			"headers": "",
-			"url": "http://drews122002-test.apigee.net/homework2/gets",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "DELETE",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
-			"data": null,
-			"dataMode": "params",
-			"name": "http://drews122002-test.apigee.net/homework2/deletes",
-			"description": "delete/gets",
-			"descriptionFormat": "html",
-			"time": 1488085835146,
-			"version": 2,
-			"responses": [
-				{
-					"status": "",
-					"responseCode": {
-						"code": 405,
-						"name": "Method Not Allowed",
-						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
-						"fromServer": true
-					},
-					"time": 59,
-					"headers": [
-						{
-							"key": "Access-Control-Allow-Origin",
-							"value": "*",
-							"name": "Access-Control-Allow-Origin",
-							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-						},
-						{
-							"key": "Allow",
-							"value": "GET",
-							"name": "Allow",
-							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"name": "Connection",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"key": "Content-Length",
-							"value": "127",
-							"name": "Content-Length",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json",
-							"name": "Content-Type",
-							"description": "The mime type of this content"
-						},
-						{
-							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:10:29 GMT",
-							"name": "Date",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"key": "Server",
-							"value": "Apigee Router",
-							"name": "Server",
-							"description": "A name for the server"
-						},
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"name": "X-Powered-By",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "{\"message\":\"Route defined in Swagger specification (/Gets) but there is no defined delete operation.\",\"allowedMethods\":[\"GET\"]}",
-					"language": "json",
-					"previewType": "text",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"responseSize": {
-						"body": 127,
-						"header": 239
-					},
-					"mimeType": "text",
-					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9HZXRzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBkZWxldGUgb3BlcmF0aW9uLiIsImFsbG93ZWRNZXRob2RzIjpbIkdFVCJdfQ==",
-					"state": {
-						"size": "normal"
-					},
-					"id": "7ff0bd6e-5def-c0ee-0863-2534f166f73b",
-					"name": "delete/gets resp",
-					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/gets",
-						"headers": [],
-						"data": null,
-						"method": "DELETE",
-						"dataMode": "params"
-					}
-				}
-			],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "ad0b12bb-e72e-be4c-67b6-a71dc2aa9509",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://drews122002-test.apigee.net/homework2/posts",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "POST",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
-			"data": [],
-			"dataMode": "raw",
-			"name": "http://drews122002-test.apigee.net/homework2/posts",
-			"description": "posts/posts",
-			"descriptionFormat": "html",
-			"time": 1488085392575,
-			"version": 2,
-			"responses": [
-				{
-					"status": "",
-					"responseCode": {
-						"code": 200,
-						"name": "OK",
-						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action.",
-						"fromServer": true
-					},
-					"time": 193,
-					"headers": [
-						{
-							"key": "Access-Control-Allow-Origin",
-							"value": "*",
-							"name": "Access-Control-Allow-Origin",
-							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"name": "Connection",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"key": "Content-Length",
-							"value": "36",
-							"name": "Content-Length",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json; charset=utf-8",
-							"name": "Content-Type",
-							"description": "The mime type of this content"
-						},
-						{
-							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:03:03 GMT",
-							"name": "Date",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"key": "ETag",
-							"value": "W/\"24-nREQApMW9YfcYH6B6TqCTA\"",
-							"name": "ETag",
-							"description": "An identifier for a specific version of a resource, often a message digest"
-						},
-						{
-							"key": "Server",
-							"value": "Apigee Router",
-							"name": "Server",
-							"description": "A name for the server"
-						},
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"name": "X-Powered-By",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "\"Movie Name:  { name: 'Liar Liar' }\"",
-					"language": "json",
-					"previewType": "text",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"responseSize": {
-						"body": 36,
-						"header": 262
-					},
-					"mimeType": "text",
-					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, Ik1vdmllIE5hbWU6ICB7IG5hbWU6ICdMaWFyIExpYXInIH0i",
-					"state": {
-						"size": "normal"
-					},
-					"id": "d666385b-2390-ac6b-f2c8-4d130946593b",
-					"name": "post/posts resp",
-					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/posts",
-						"headers": [
-							{
-								"key": "Content-Type",
-								"name": "Content-Type",
-								"value": "application/json",
-								"disabled": false
-							}
-						],
-						"data": "{\"name\" : \"Liar Liar\"}",
-						"method": "POST",
-						"dataMode": "params"
-					}
-				}
-			],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"rawModeData": "{\"name\" : \"Liar Liar\"}"
-		},
-		{
-			"id": "b038fc48-9a76-e5fd-5e72-37fce65fdb23",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://drews122002-test.apigee.net/homework2/deletes",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "POST",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
-			"data": [],
-			"dataMode": "raw",
-			"name": "http://drews122002-test.apigee.net/homework2/posts",
-			"description": "posts/deletes",
-			"descriptionFormat": "html",
-			"time": 1488085441314,
-			"version": 2,
-			"responses": [
-				{
-					"status": "",
-					"responseCode": {
-						"code": 405,
-						"name": "Method Not Allowed",
-						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
-						"fromServer": true
-					},
-					"time": 58,
-					"headers": [
-						{
-							"key": "Access-Control-Allow-Origin",
-							"value": "*",
-							"name": "Access-Control-Allow-Origin",
-							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-						},
-						{
-							"key": "Allow",
-							"value": "DELETE",
-							"name": "Allow",
-							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"name": "Connection",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"key": "Content-Length",
-							"value": "131",
-							"name": "Content-Length",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json",
-							"name": "Content-Type",
-							"description": "The mime type of this content"
-						},
-						{
-							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:05:01 GMT",
-							"name": "Date",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"key": "Server",
-							"value": "Apigee Router",
-							"name": "Server",
-							"description": "A name for the server"
-						},
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"name": "X-Powered-By",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "{\"message\":\"Route defined in Swagger specification (/deletes) but there is no defined post operation.\",\"allowedMethods\":[\"DELETE\"]}",
-					"language": "json",
-					"previewType": "text",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"responseSize": {
-						"body": 131,
-						"header": 242
-					},
-					"mimeType": "text",
-					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9kZWxldGVzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBwb3N0IG9wZXJhdGlvbi4iLCJhbGxvd2VkTWV0aG9kcyI6WyJERUxFVEUiXX0=",
-					"state": {
-						"size": "normal"
-					},
-					"id": "e5b68aa0-23c1-257e-8e90-cc32b316911d",
-					"name": "post/deletes resp",
-					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/deletes",
-						"headers": [
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"enabled": true,
-								"description": "The mime type of this content",
-								"disabled": false
-							}
-						],
-						"data": "{\"name\" : \"Liar Liar\"}",
-						"method": "POST",
-						"dataMode": "raw"
-					}
-				},
-				{
-					"status": "",
-					"responseCode": {
-						"code": 405,
-						"name": "Method Not Allowed",
-						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
-						"fromServer": true
-					},
-					"time": 59,
-					"headers": [
-						{
-							"key": "Access-Control-Allow-Origin",
-							"value": "*",
-							"name": "Access-Control-Allow-Origin",
-							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-						},
-						{
-							"key": "Allow",
-							"value": "DELETE",
-							"name": "Allow",
-							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"name": "Connection",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"key": "Content-Length",
-							"value": "131",
-							"name": "Content-Length",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json",
-							"name": "Content-Type",
-							"description": "The mime type of this content"
-						},
-						{
-							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:06:23 GMT",
-							"name": "Date",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"key": "Server",
-							"value": "Apigee Router",
-							"name": "Server",
-							"description": "A name for the server"
-						},
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"name": "X-Powered-By",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "{\"message\":\"Route defined in Swagger specification (/deletes) but there is no defined post operation.\",\"allowedMethods\":[\"DELETE\"]}",
-					"language": "json",
-					"previewType": "text",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"responseSize": {
-						"body": 131,
-						"header": 242
-					},
-					"mimeType": "text",
-					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9kZWxldGVzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBwb3N0IG9wZXJhdGlvbi4iLCJhbGxvd2VkTWV0aG9kcyI6WyJERUxFVEUiXX0=",
-					"state": {
-						"size": "normal"
-					},
-					"id": "c539e958-6f99-c88b-2631-1cb0cde1d466",
-					"name": "post/deletes resp",
-					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/deletes",
-						"headers": [
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"enabled": true,
-								"description": "The mime type of this content",
-								"disabled": false
-							}
-						],
-						"data": "{\"name\" : \"Liar Liar\"}",
-						"method": "POST",
-						"dataMode": "raw"
-					}
-				}
-			],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {},
-			"rawModeData": "{\"name\" : \"Liar Liar\"}"
-		},
-		{
-			"id": "b87d3c28-1124-6a2b-3b90-0c44793eec86",
-			"headers": "",
-			"url": "http://drews122002-test.apigee.net/homework2/posts",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "GET",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
-			"data": null,
-			"dataMode": "params",
-			"name": "http://drews122002-test.apigee.net/homework2/gets",
-			"description": "get/posts",
-			"descriptionFormat": "html",
-			"time": 1488085313542,
-			"version": 2,
-			"responses": [
-				{
-					"status": "",
-					"responseCode": {
-						"code": 405,
-						"name": "Method Not Allowed",
-						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
-						"fromServer": true
-					},
-					"time": 83,
-					"headers": [
-						{
-							"key": "Access-Control-Allow-Origin",
-							"value": "*",
-							"name": "Access-Control-Allow-Origin",
-							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
-						},
-						{
-							"key": "Allow",
-							"value": "POST",
-							"name": "Allow",
-							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
-						},
-						{
-							"key": "Connection",
-							"value": "keep-alive",
-							"name": "Connection",
-							"description": "Options that are desired for the connection"
-						},
-						{
-							"key": "Content-Length",
-							"value": "126",
-							"name": "Content-Length",
-							"description": "The length of the response body in octets (8-bit bytes)"
-						},
-						{
-							"key": "Content-Type",
-							"value": "application/json",
-							"name": "Content-Type",
-							"description": "The mime type of this content"
-						},
-						{
-							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:01:45 GMT",
-							"name": "Date",
-							"description": "The date and time that the message was sent"
-						},
-						{
-							"key": "Server",
-							"value": "Apigee Router",
-							"name": "Server",
-							"description": "A name for the server"
-						},
-						{
-							"key": "X-Powered-By",
-							"value": "Express",
-							"name": "X-Powered-By",
-							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
-						}
-					],
-					"cookies": [],
-					"mime": "",
-					"text": "{\"message\":\"Route defined in Swagger specification (/Posts) but there is no defined get operation.\",\"allowedMethods\":[\"POST\"]}",
-					"language": "json",
-					"previewType": "text",
-					"searchResultScrolledTo": -1,
-					"forceNoPretty": false,
-					"write": true,
-					"empty": false,
-					"failed": false,
-					"responseSize": {
-						"body": 126,
-						"header": 240
-					},
-					"mimeType": "text",
-					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9Qb3N0cykgYnV0IHRoZXJlIGlzIG5vIGRlZmluZWQgZ2V0IG9wZXJhdGlvbi4iLCJhbGxvd2VkTWV0aG9kcyI6WyJQT1NUIl19",
-					"state": {
-						"size": "normal"
-					},
-					"id": "cd7fd114-144c-eb62-dec8-4abcd20b20a3",
-					"name": "get/posts resp",
-					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/posts",
-						"headers": [],
-						"data": null,
-						"method": "GET",
-						"dataMode": "params"
-					}
-				}
-			],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		},
-		{
-			"id": "c7b5bf6b-c965-d704-f9fe-2544ae9b94b6",
-			"headers": "",
-			"url": "http://drews122002-test.apigee.net/homework2/puts",
-			"pathVariables": {},
-			"preRequestScript": null,
-			"method": "GET",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
-			"data": null,
-			"dataMode": "params",
-			"name": "http://drews122002-test.apigee.net/homework2/gets",
-			"description": "get/puts",
-			"descriptionFormat": "html",
-			"time": 1488085293029,
-			"version": 2,
-			"responses": [
-				{
-					"status": "",
-					"responseCode": {
-						"code": 405,
-						"name": "Method Not Allowed",
-						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
-						"fromServer": true
-					},
-					"time": 161,
 					"headers": [
 						{
 							"key": "Access-Control-Allow-Origin",
@@ -1433,7 +83,7 @@
 						},
 						{
 							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:01:20 GMT",
+							"value": "Sun, 12 Mar 2017 08:10:01 GMT",
 							"name": "Date",
 							"description": "The date and time that the message was sent"
 						},
@@ -1470,10 +120,10 @@
 					"state": {
 						"size": "normal"
 					},
-					"id": "5fe00c39-9b07-874b-60dd-32b86f7a52ba",
-					"name": "get/puts resp",
+					"id": "4431382a-fb5f-27b3-b775-d652eac9190e",
+					"name": "get/puts",
 					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/puts",
+						"url": "http://drews122002-test.apigee.net/homework2.2/puts",
 						"headers": [],
 						"data": null,
 						"method": "GET",
@@ -1486,19 +136,239 @@
 			"helperAttributes": {}
 		},
 		{
-			"id": "cce22f92-3cd5-05a3-f9b0-693cc87bef26",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://drews122002-test.apigee.net/homework2/puts",
+			"id": "2ee3d105-2d0c-615a-0da6-2e026e866769",
+			"headers": "",
+			"url": "http://drews122002-test.apigee.net/homework2.2/deletes",
 			"pathVariables": {},
 			"preRequestScript": null,
 			"method": "PUT",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2.2/deletes",
+			"description": "put/deletes",
+			"descriptionFormat": "html",
+			"time": 1489306554558,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 405,
+						"name": "Method Not Allowed",
+						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
+						"fromServer": true
+					},
+					"time": 60,
+					"headers": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"name": "Access-Control-Allow-Origin",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"key": "Allow",
+							"value": "DELETE",
+							"name": "Allow",
+							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "130",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 08:15:49 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express",
+							"name": "X-Powered-By",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"Route defined in Swagger specification (/deletes) but there is no defined put operation.\",\"allowedMethods\":[\"DELETE\"]}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 130,
+						"header": 242
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9kZWxldGVzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBwdXQgb3BlcmF0aW9uLiIsImFsbG93ZWRNZXRob2RzIjpbIkRFTEVURSJdfQ==",
+					"state": {
+						"size": "normal"
+					},
+					"id": "9ddb3bea-09be-7491-ba1f-cb7b29fc9f25",
+					"name": "put/deletes",
+					"request": {
+						"url": "http://drews122002-test.apigee.net/homework2.2/deletes",
+						"headers": [],
+						"data": null,
+						"method": "PUT",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "6d92c621-ec63-566f-b896-aff57f09af92",
+			"headers": "",
+			"url": "http://drews122002-test.apigee.net/homework2.2/posts",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2.2/posts",
+			"description": "delete/posts",
+			"descriptionFormat": "html",
+			"time": 1489306622063,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 405,
+						"name": "Method Not Allowed",
+						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
+						"fromServer": true
+					},
+					"time": 58,
+					"headers": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"name": "Access-Control-Allow-Origin",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"key": "Allow",
+							"value": "POST",
+							"name": "Allow",
+							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "129",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 08:16:55 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express",
+							"name": "X-Powered-By",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"Route defined in Swagger specification (/Posts) but there is no defined delete operation.\",\"allowedMethods\":[\"POST\"]}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 129,
+						"header": 240
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9Qb3N0cykgYnV0IHRoZXJlIGlzIG5vIGRlZmluZWQgZGVsZXRlIG9wZXJhdGlvbi4iLCJhbGxvd2VkTWV0aG9kcyI6WyJQT1NUIl19",
+					"state": {
+						"size": "normal"
+					},
+					"id": "b1780d81-ba63-c539-61ff-28122e30288b",
+					"name": "delete/posts",
+					"request": {
+						"url": "http://drews122002-test.apigee.net/homework2.2/posts",
+						"headers": [],
+						"data": null,
+						"method": "DELETE",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "872b198c-00d7-4d67-3ee1-cbd772b0d8c6",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://drews122002-test.apigee.net/homework2.2/puts",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
 			"data": [],
 			"dataMode": "raw",
-			"name": "http://drews122002-test.apigee.net/homework2/puts",
-			"description": "puts/puts\n",
+			"name": "http://drews122002-test.apigee.net/homework2.2/puts",
+			"description": "puts/puts",
 			"descriptionFormat": "html",
-			"time": 1488085673409,
+			"time": 1489306468763,
 			"version": 2,
 			"responses": [
 				{
@@ -1509,7 +379,7 @@
 						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action.",
 						"fromServer": true
 					},
-					"time": 93,
+					"time": 69,
 					"headers": [
 						{
 							"key": "Access-Control-Allow-Origin",
@@ -1525,7 +395,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "24",
+							"value": "414",
 							"name": "Content-Length",
 							"description": "The length of the response body in octets (8-bit bytes)"
 						},
@@ -1537,13 +407,13 @@
 						},
 						{
 							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:07:45 GMT",
+							"value": "Sun, 12 Mar 2017 08:14:16 GMT",
 							"name": "Date",
 							"description": "The date and time that the message was sent"
 						},
 						{
 							"key": "ETag",
-							"value": "W/\"18-wTRRLvTUFW8ZlogjUJaG0w\"",
+							"value": "W/\"19e-Jj77HDZCMXZ2MRs+aeeYmg\"",
 							"name": "ETag",
 							"description": "An identifier for a specific version of a resource, often a message digest"
 						},
@@ -1562,7 +432,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "\"Movie ID: { id: 1234 }\"",
+					"text": "{\"message\":\"First\",\"description\":\"using /puts\",\"headers\":{\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate\",\"cache-control\":\"no-cache\",\"content-length\":\"12\",\"content-type\":\"application/json\",\"host\":\"drews122002-test.apigee.net\",\"postman-token\":\"7f03700b-c30c-46c3-a049-a2910b046ac5\",\"user-agent\":\"PostmanRuntime/3.0.11-hotfix.2\",\"x-forwarded-for\":\"73.229.143.95\",\"x-forwarded-port\":\"80\",\"x-forwarded-proto\":\"http\"}}",
 					"language": "json",
 					"previewType": "text",
 					"searchResultScrolledTo": -1,
@@ -1571,19 +441,19 @@
 					"empty": false,
 					"failed": false,
 					"responseSize": {
-						"body": 24,
-						"header": 262
+						"body": 414,
+						"header": 264
 					},
 					"mimeType": "text",
 					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, Ik1vdmllIElEOiB7IGlkOiAxMjM0IH0i",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiRmlyc3QiLCJkZXNjcmlwdGlvbiI6InVzaW5nIC9wdXRzIiwiaGVhZGVycyI6eyJhY2NlcHQiOiIqLyoiLCJhY2NlcHQtZW5jb2RpbmciOiJnemlwLCBkZWZsYXRlIiwiY2FjaGUtY29udHJvbCI6Im5vLWNhY2hlIiwiY29udGVudC1sZW5ndGgiOiIxMiIsImNvbnRlbnQtdHlwZSI6ImFwcGxpY2F0aW9uL2pzb24iLCJob3N0IjoiZHJld3MxMjIwMDItdGVzdC5hcGlnZWUubmV0IiwicG9zdG1hbi10b2tlbiI6IjdmMDM3MDBiLWMzMGMtNDZjMy1hMDQ5LWEyOTEwYjA0NmFjNSIsInVzZXItYWdlbnQiOiJQb3N0bWFuUnVudGltZS8zLjAuMTEtaG90Zml4LjIiLCJ4LWZvcndhcmRlZC1mb3IiOiI3My4yMjkuMTQzLjk1IiwieC1mb3J3YXJkZWQtcG9ydCI6IjgwIiwieC1mb3J3YXJkZWQtcHJvdG8iOiJodHRwIn19",
 					"state": {
 						"size": "normal"
 					},
-					"id": "d105d18d-1714-8f4d-57a4-660b226d704e",
-					"name": "put/puts resp",
+					"id": "2e45a057-92b2-b7ef-2726-9425493f4605",
+					"name": "put/puts",
 					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/puts",
+						"url": "http://drews122002-test.apigee.net/homework2.2/puts",
 						"headers": [
 							{
 								"key": "Content-Type",
@@ -1592,7 +462,7 @@
 								"disabled": false
 							}
 						],
-						"data": "{\"id\" : 1234}",
+						"data": "{\"id\" : 123}",
 						"method": "PUT",
 						"dataMode": "params"
 					}
@@ -1601,22 +471,22 @@
 			"tests": null,
 			"currentHelper": "normal",
 			"helperAttributes": {},
-			"rawModeData": "{\"id\" : 1234}"
+			"rawModeData": "{\"id\" : 123}"
 		},
 		{
-			"id": "dca3226f-39be-ba56-2c34-ecc01da65e14",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://drews122002-test.apigee.net/homework2/puts",
+			"id": "9675b2b9-914f-eee4-d7c5-6c18c32c84e6",
+			"headers": "",
+			"url": "http://drews122002-test.apigee.net/homework2.2/gets",
 			"pathVariables": {},
 			"preRequestScript": null,
 			"method": "POST",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
-			"data": [],
-			"dataMode": "raw",
-			"name": "http://drews122002-test.apigee.net/homework2/posts",
-			"description": "posts/puts",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2.2/gets",
+			"description": "post/gets",
 			"descriptionFormat": "html",
-			"time": 1488085527786,
+			"time": 1489306328479,
 			"version": 2,
 			"responses": [
 				{
@@ -1627,7 +497,7 @@
 						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
 						"fromServer": true
 					},
-					"time": 56,
+					"time": 60,
 					"headers": [
 						{
 							"key": "Access-Control-Allow-Origin",
@@ -1637,7 +507,7 @@
 						},
 						{
 							"key": "Allow",
-							"value": "PUT",
+							"value": "GET",
 							"name": "Allow",
 							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
 						},
@@ -1661,7 +531,7 @@
 						},
 						{
 							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:05:20 GMT",
+							"value": "Sun, 12 Mar 2017 08:12:03 GMT",
 							"name": "Date",
 							"description": "The date and time that the message was sent"
 						},
@@ -1680,7 +550,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "{\"message\":\"Route defined in Swagger specification (/puts) but there is no defined post operation.\",\"allowedMethods\":[\"PUT\"]}",
+					"text": "{\"message\":\"Route defined in Swagger specification (/Gets) but there is no defined post operation.\",\"allowedMethods\":[\"GET\"]}",
 					"language": "json",
 					"previewType": "text",
 					"searchResultScrolledTo": -1,
@@ -1694,48 +564,39 @@
 					},
 					"mimeType": "text",
 					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9wdXRzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBwb3N0IG9wZXJhdGlvbi4iLCJhbGxvd2VkTWV0aG9kcyI6WyJQVVQiXX0=",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9HZXRzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBwb3N0IG9wZXJhdGlvbi4iLCJhbGxvd2VkTWV0aG9kcyI6WyJHRVQiXX0=",
 					"state": {
 						"size": "normal"
 					},
-					"id": "9c25243a-c6f0-651c-c526-5d75544a8c28",
-					"name": "post/puts resp",
+					"id": "00b035ea-8a08-ebf2-ab49-bd0ad056c118",
+					"name": "post/gets",
 					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/puts",
-						"headers": [
-							{
-								"key": "Content-Type",
-								"value": "application/json",
-								"enabled": true,
-								"description": "The mime type of this content",
-								"disabled": false
-							}
-						],
-						"data": "{\"name\" : \"Liar Liar\"}",
+						"url": "http://drews122002-test.apigee.net/homework2.2/gets",
+						"headers": [],
+						"data": null,
 						"method": "POST",
-						"dataMode": "raw"
+						"dataMode": "params"
 					}
 				}
 			],
 			"tests": null,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"rawModeData": "{\"name\" : \"Liar Liar\"}"
+			"helperAttributes": {}
 		},
 		{
-			"id": "df1acaa6-192c-37be-c3e1-669ff6d15ba7",
-			"headers": "Content-Type: application/json\n",
-			"url": "http://drews122002-test.apigee.net/homework2/gets",
+			"id": "9d11967f-e3ce-6bc0-6ca5-8da06d5d806b",
+			"headers": "",
+			"url": "http://drews122002-test.apigee.net/homework2.2/posts",
 			"pathVariables": {},
 			"preRequestScript": null,
-			"method": "PUT",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
-			"data": [],
-			"dataMode": "raw",
-			"name": "http://drews122002-test.apigee.net/homework2/puts",
-			"description": "puts/gets\n",
+			"method": "GET",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2.2/posts",
+			"description": "get/posts",
 			"descriptionFormat": "html",
-			"time": 1488085701357,
+			"time": 1489306257349,
 			"version": 2,
 			"responses": [
 				{
@@ -1746,7 +607,675 @@
 						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
 						"fromServer": true
 					},
-					"time": 59,
+					"time": 58,
+					"headers": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"name": "Access-Control-Allow-Origin",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"key": "Allow",
+							"value": "POST",
+							"name": "Allow",
+							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "126",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 08:10:59 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express",
+							"name": "X-Powered-By",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"Route defined in Swagger specification (/Posts) but there is no defined get operation.\",\"allowedMethods\":[\"POST\"]}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 126,
+						"header": 240
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9Qb3N0cykgYnV0IHRoZXJlIGlzIG5vIGRlZmluZWQgZ2V0IG9wZXJhdGlvbi4iLCJhbGxvd2VkTWV0aG9kcyI6WyJQT1NUIl19",
+					"state": {
+						"size": "normal"
+					},
+					"id": "e55d4b12-2f87-0233-b3b3-bd7d6956cd3e",
+					"name": "get/posts",
+					"request": {
+						"url": "http://drews122002-test.apigee.net/homework2.2/posts",
+						"headers": [],
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a798e581-6ce3-9be3-f935-83a3611e49ba",
+			"headers": "",
+			"url": "http://drews122002-test.apigee.net/homework2.2/posts",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2.2/posts",
+			"description": "put/posts",
+			"descriptionFormat": "html",
+			"time": 1489306522349,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 405,
+						"name": "Method Not Allowed",
+						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
+						"fromServer": true
+					},
+					"time": 61,
+					"headers": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"name": "Access-Control-Allow-Origin",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"key": "Allow",
+							"value": "POST",
+							"name": "Allow",
+							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "126",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 08:15:17 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express",
+							"name": "X-Powered-By",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"Route defined in Swagger specification (/Posts) but there is no defined put operation.\",\"allowedMethods\":[\"POST\"]}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 126,
+						"header": 240
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9Qb3N0cykgYnV0IHRoZXJlIGlzIG5vIGRlZmluZWQgcHV0IG9wZXJhdGlvbi4iLCJhbGxvd2VkTWV0aG9kcyI6WyJQT1NUIl19",
+					"state": {
+						"size": "normal"
+					},
+					"id": "9acc5b60-672a-f829-94dd-1b849265e09c",
+					"name": "put/posts",
+					"request": {
+						"url": "http://drews122002-test.apigee.net/homework2.2/posts",
+						"headers": [],
+						"data": null,
+						"method": "PUT",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "a9ab5f2f-6713-12c1-ccf9-d9ab9cfe33d9",
+			"headers": "",
+			"url": "http://drews122002-test.apigee.net/homework2.2/deletes",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2.2/deletes",
+			"description": "post/deletes",
+			"descriptionFormat": "html",
+			"time": 1489306349360,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 405,
+						"name": "Method Not Allowed",
+						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
+						"fromServer": true
+					},
+					"time": 64,
+					"headers": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"name": "Access-Control-Allow-Origin",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"key": "Allow",
+							"value": "DELETE",
+							"name": "Allow",
+							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "131",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 08:12:21 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express",
+							"name": "X-Powered-By",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"Route defined in Swagger specification (/deletes) but there is no defined post operation.\",\"allowedMethods\":[\"DELETE\"]}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 131,
+						"header": 242
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9kZWxldGVzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBwb3N0IG9wZXJhdGlvbi4iLCJhbGxvd2VkTWV0aG9kcyI6WyJERUxFVEUiXX0=",
+					"state": {
+						"size": "normal"
+					},
+					"id": "671bbdc1-49c7-77bf-88f7-b0c9682b3bea",
+					"name": "post/deletes",
+					"request": {
+						"url": "http://drews122002-test.apigee.net/homework2.2/deletes",
+						"headers": [],
+						"data": null,
+						"method": "POST",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c5f08b09-6e6c-a7be-4a53-4850b2975b3c",
+			"headers": "",
+			"url": "http://drews122002-test.apigee.net/homework2.2/gets",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2.2/gets",
+			"description": "delete/gets",
+			"descriptionFormat": "html",
+			"time": 1489306644014,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 405,
+						"name": "Method Not Allowed",
+						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
+						"fromServer": true
+					},
+					"time": 65,
+					"headers": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"name": "Access-Control-Allow-Origin",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"key": "Allow",
+							"value": "GET",
+							"name": "Allow",
+							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "127",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 08:17:17 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express",
+							"name": "X-Powered-By",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"Route defined in Swagger specification (/Gets) but there is no defined delete operation.\",\"allowedMethods\":[\"GET\"]}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 127,
+						"header": 239
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9HZXRzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBkZWxldGUgb3BlcmF0aW9uLiIsImFsbG93ZWRNZXRob2RzIjpbIkdFVCJdfQ==",
+					"state": {
+						"size": "normal"
+					},
+					"id": "034241d6-77ba-7e9e-efa5-1b8ae14bc880",
+					"name": "delete/gets",
+					"request": {
+						"url": "http://drews122002-test.apigee.net/homework2.2/gets",
+						"headers": [],
+						"data": null,
+						"method": "DELETE",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "d22db436-54f2-e6c3-aa91-c420fffb1374",
+			"headers": "Content-Type: application/json\n",
+			"url": "http://drews122002-test.apigee.net/homework2.2/posts",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://drews122002-test.apigee.net/homework2.2/posts",
+			"description": "post/posts",
+			"descriptionFormat": "html",
+			"time": 1489306309743,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action.",
+						"fromServer": true
+					},
+					"time": 71,
+					"headers": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"name": "Access-Control-Allow-Origin",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "415",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 08:11:41 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"19f-y144anflvSuZPb3xOjSCgg\"",
+							"name": "ETag",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express",
+							"name": "X-Powered-By",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"First\",\"description\":\"using /posts\",\"headers\":{\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate\",\"cache-control\":\"no-cache\",\"content-length\":\"23\",\"content-type\":\"application/json\",\"host\":\"drews122002-test.apigee.net\",\"postman-token\":\"56af2954-fc9e-4ac1-8e8e-b7fb5b5e8ea0\",\"user-agent\":\"PostmanRuntime/3.0.11-hotfix.2\",\"x-forwarded-for\":\"73.229.143.95\",\"x-forwarded-port\":\"80\",\"x-forwarded-proto\":\"http\"}}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 415,
+						"header": 264
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiRmlyc3QiLCJkZXNjcmlwdGlvbiI6InVzaW5nIC9wb3N0cyIsImhlYWRlcnMiOnsiYWNjZXB0IjoiKi8qIiwiYWNjZXB0LWVuY29kaW5nIjoiZ3ppcCwgZGVmbGF0ZSIsImNhY2hlLWNvbnRyb2wiOiJuby1jYWNoZSIsImNvbnRlbnQtbGVuZ3RoIjoiMjMiLCJjb250ZW50LXR5cGUiOiJhcHBsaWNhdGlvbi9qc29uIiwiaG9zdCI6ImRyZXdzMTIyMDAyLXRlc3QuYXBpZ2VlLm5ldCIsInBvc3RtYW4tdG9rZW4iOiI1NmFmMjk1NC1mYzllLTRhYzEtOGU4ZS1iN2ZiNWI1ZThlYTAiLCJ1c2VyLWFnZW50IjoiUG9zdG1hblJ1bnRpbWUvMy4wLjExLWhvdGZpeC4yIiwieC1mb3J3YXJkZWQtZm9yIjoiNzMuMjI5LjE0My45NSIsIngtZm9yd2FyZGVkLXBvcnQiOiI4MCIsIngtZm9yd2FyZGVkLXByb3RvIjoiaHR0cCJ9fQ==",
+					"state": {
+						"size": "normal"
+					},
+					"id": "638b2b55-81b8-bdc3-6434-9ad001a6d67c",
+					"name": "post/posts",
+					"request": {
+						"url": "http://drews122002-test.apigee.net/homework2.2/posts",
+						"headers": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"disabled": false
+							}
+						],
+						"data": "{\"name\" : \"Liar Liar \"}",
+						"method": "POST",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"name\" : \"Liar Liar \"}"
+		},
+		{
+			"id": "dd75a776-e2a4-a446-9b18-3f8b70f4b5fb",
+			"headers": "",
+			"url": "http://drews122002-test.apigee.net/homework2.2/deletes",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2.2/deletes",
+			"description": "deletes/deletes\n",
+			"descriptionFormat": "html",
+			"time": 1489306578544,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action.",
+						"fromServer": true
+					},
+					"time": 73,
+					"headers": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"name": "Access-Control-Allow-Origin",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "382",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 08:16:10 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"17e-OjTx5gL7B0ZUODPsXNRwUw\"",
+							"name": "ETag",
+							"description": "An identifier for a specific version of a resource, often a message digest"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express",
+							"name": "X-Powered-By",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"First\",\"description\":\"using /deletes\",\"headers\":{\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate\",\"cache-control\":\"no-cache\",\"content-length\":\"0\",\"host\":\"drews122002-test.apigee.net\",\"postman-token\":\"52f29bf7-360c-4df2-b0bc-de6dd9bc3876\",\"user-agent\":\"PostmanRuntime/3.0.11-hotfix.2\",\"x-forwarded-for\":\"73.229.143.95\",\"x-forwarded-port\":\"80\",\"x-forwarded-proto\":\"http\"}}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 382,
+						"header": 264
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiRmlyc3QiLCJkZXNjcmlwdGlvbiI6InVzaW5nIC9kZWxldGVzIiwiaGVhZGVycyI6eyJhY2NlcHQiOiIqLyoiLCJhY2NlcHQtZW5jb2RpbmciOiJnemlwLCBkZWZsYXRlIiwiY2FjaGUtY29udHJvbCI6Im5vLWNhY2hlIiwiY29udGVudC1sZW5ndGgiOiIwIiwiaG9zdCI6ImRyZXdzMTIyMDAyLXRlc3QuYXBpZ2VlLm5ldCIsInBvc3RtYW4tdG9rZW4iOiI1MmYyOWJmNy0zNjBjLTRkZjItYjBiYy1kZTZkZDliYzM4NzYiLCJ1c2VyLWFnZW50IjoiUG9zdG1hblJ1bnRpbWUvMy4wLjExLWhvdGZpeC4yIiwieC1mb3J3YXJkZWQtZm9yIjoiNzMuMjI5LjE0My45NSIsIngtZm9yd2FyZGVkLXBvcnQiOiI4MCIsIngtZm9yd2FyZGVkLXByb3RvIjoiaHR0cCJ9fQ==",
+					"state": {
+						"size": "normal"
+					},
+					"id": "696cb881-a981-b54c-f93a-502b8c65ddea",
+					"name": "deletes/deletes",
+					"request": {
+						"url": "http://drews122002-test.apigee.net/homework2.2/deletes",
+						"headers": [],
+						"data": null,
+						"method": "DELETE",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "e5cd81b0-3e9b-ef72-b1f1-7172714ac6b8",
+			"headers": "",
+			"url": "http://drews122002-test.apigee.net/homework2.2/gets",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2.2/gets",
+			"description": "put/gets",
+			"descriptionFormat": "html",
+			"time": 1489306538123,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 405,
+						"name": "Method Not Allowed",
+						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
+						"fromServer": true
+					},
+					"time": 62,
 					"headers": [
 						{
 							"key": "Access-Control-Allow-Origin",
@@ -1780,7 +1309,7 @@
 						},
 						{
 							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:08:10 GMT",
+							"value": "Sun, 12 Mar 2017 08:15:32 GMT",
 							"name": "Date",
 							"description": "The date and time that the message was sent"
 						},
@@ -1817,19 +1346,12 @@
 					"state": {
 						"size": "normal"
 					},
-					"id": "f9dd513f-3d03-560f-9ab5-942ca249a6b0",
-					"name": "put/gets resp",
+					"id": "1998a9c2-1c6e-5e22-b59d-36bec56ce622",
+					"name": "put/gets",
 					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/gets",
-						"headers": [
-							{
-								"key": "Content-Type",
-								"name": "Content-Type",
-								"value": "application/json",
-								"disabled": false
-							}
-						],
-						"data": "{\"id\" : 1234}",
+						"url": "http://drews122002-test.apigee.net/homework2.2/gets",
+						"headers": [],
+						"data": null,
 						"method": "PUT",
 						"dataMode": "params"
 					}
@@ -1837,23 +1359,352 @@
 			],
 			"tests": null,
 			"currentHelper": "normal",
-			"helperAttributes": {},
-			"rawModeData": "{\"id\" : 1234}"
+			"helperAttributes": {}
 		},
 		{
-			"id": "f7e27f05-ac11-0db0-084a-552d72ee977d",
+			"id": "eb59b826-d2a0-743b-2b98-4c2aeeb52f32",
 			"headers": "",
-			"url": "http://drews122002-test.apigee.net/homework2/deletes",
+			"url": "http://drews122002-test.apigee.net/homework2.2/puts",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2.2/puts",
+			"description": "post/puts",
+			"descriptionFormat": "html",
+			"time": 1489306431972,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 405,
+						"name": "Method Not Allowed",
+						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
+						"fromServer": true
+					},
+					"time": 63,
+					"headers": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"name": "Access-Control-Allow-Origin",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"key": "Allow",
+							"value": "PUT",
+							"name": "Allow",
+							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "125",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 08:13:43 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express",
+							"name": "X-Powered-By",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"Route defined in Swagger specification (/puts) but there is no defined post operation.\",\"allowedMethods\":[\"PUT\"]}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 125,
+						"header": 239
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9wdXRzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBwb3N0IG9wZXJhdGlvbi4iLCJhbGxvd2VkTWV0aG9kcyI6WyJQVVQiXX0=",
+					"state": {
+						"size": "normal"
+					},
+					"id": "40690437-cea1-8603-d02e-d25f51c638d6",
+					"name": "post/puts",
+					"request": {
+						"url": "http://drews122002-test.apigee.net/homework2.2/puts",
+						"headers": [],
+						"data": null,
+						"method": "POST",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ececda61-bf56-9d3d-fd29-ab45bd81db07",
+			"headers": "",
+			"url": "http://drews122002-test.apigee.net/homework2.2/puts",
 			"pathVariables": {},
 			"preRequestScript": null,
 			"method": "DELETE",
-			"collectionId": "07bef496-dd03-b47f-5675-a451a4c6b580",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
 			"data": null,
 			"dataMode": "params",
-			"name": "http://drews122002-test.apigee.net/homework2/deletes",
-			"description": "delete/deletes resp",
+			"name": "http://drews122002-test.apigee.net/homework2.2/puts",
+			"description": "delete/puts\n",
 			"descriptionFormat": "html",
-			"time": 1488085787035,
+			"time": 1489306598985,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 405,
+						"name": "Method Not Allowed",
+						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
+						"fromServer": true
+					},
+					"time": 62,
+					"headers": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"name": "Access-Control-Allow-Origin",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"key": "Allow",
+							"value": "PUT",
+							"name": "Allow",
+							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "127",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 08:16:31 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express",
+							"name": "X-Powered-By",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"Route defined in Swagger specification (/puts) but there is no defined delete operation.\",\"allowedMethods\":[\"PUT\"]}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 127,
+						"header": 239
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9wdXRzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBkZWxldGUgb3BlcmF0aW9uLiIsImFsbG93ZWRNZXRob2RzIjpbIlBVVCJdfQ==",
+					"state": {
+						"size": "normal"
+					},
+					"id": "60ddcfee-379d-5b59-c7ca-260a5fc2ab34",
+					"name": "delete/puts",
+					"request": {
+						"url": "http://drews122002-test.apigee.net/homework2.2/puts",
+						"headers": [],
+						"data": null,
+						"method": "DELETE",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "ee21c030-b1bb-0bd5-b996-798590b57d9d",
+			"headers": "",
+			"url": "http://drews122002-test.apigee.net/homework2.2/deletes",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2.2/deletes",
+			"description": "get/deletes",
+			"descriptionFormat": "html",
+			"time": 1489306230454,
+			"version": 2,
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 405,
+						"name": "Method Not Allowed",
+						"detail": "A request was made of a resource using a request method not supported by that resource; for example, using GET on a form which requires data to be presented via POST, or using PUT on a read-only resource.",
+						"fromServer": true
+					},
+					"time": 58,
+					"headers": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"name": "Access-Control-Allow-Origin",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"key": "Allow",
+							"value": "DELETE",
+							"name": "Allow",
+							"description": "Valid actions for a specified resource. To be used for a 405 Method not allowed"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive",
+							"name": "Connection",
+							"description": "Options that are desired for the connection"
+						},
+						{
+							"key": "Content-Length",
+							"value": "130",
+							"name": "Content-Length",
+							"description": "The length of the response body in octets (8-bit bytes)"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "The mime type of this content"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 12 Mar 2017 08:10:24 GMT",
+							"name": "Date",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"key": "Server",
+							"value": "Apigee Router",
+							"name": "Server",
+							"description": "A name for the server"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express",
+							"name": "X-Powered-By",
+							"description": "Specifies the technology (ASP.NET, PHP, JBoss, e.g.) supporting the web application (version details are often in X-Runtime, X-Version, or X-AspNet-Version)"
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"message\":\"Route defined in Swagger specification (/deletes) but there is no defined get operation.\",\"allowedMethods\":[\"DELETE\"]}",
+					"language": "json",
+					"previewType": "text",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"responseSize": {
+						"body": 130,
+						"header": 242
+					},
+					"mimeType": "text",
+					"fileName": "response.json",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiUm91dGUgZGVmaW5lZCBpbiBTd2FnZ2VyIHNwZWNpZmljYXRpb24gKC9kZWxldGVzKSBidXQgdGhlcmUgaXMgbm8gZGVmaW5lZCBnZXQgb3BlcmF0aW9uLiIsImFsbG93ZWRNZXRob2RzIjpbIkRFTEVURSJdfQ==",
+					"state": {
+						"size": "normal"
+					},
+					"id": "684c5132-108f-495f-0889-e5498b6c35e2",
+					"name": "get/deletes",
+					"request": {
+						"url": "http://drews122002-test.apigee.net/homework2.2/deletes",
+						"headers": [],
+						"data": null,
+						"method": "GET",
+						"dataMode": "params"
+					}
+				}
+			],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "fe0b8a03-f4fb-aae5-ef47-08b0c111f43b",
+			"headers": "",
+			"url": "http://drews122002-test.apigee.net/homework2.2/gets",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "b6eb368e-2091-8707-a14f-de82d86e37d0",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://drews122002-test.apigee.net/homework2.2/gets",
+			"description": "get/gets",
+			"descriptionFormat": "html",
+			"time": 1489306186620,
 			"version": 2,
 			"responses": [
 				{
@@ -1864,7 +1715,7 @@
 						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action.",
 						"fromServer": true
 					},
-					"time": 76,
+					"time": 67,
 					"headers": [
 						{
 							"key": "Access-Control-Allow-Origin",
@@ -1880,7 +1731,7 @@
 						},
 						{
 							"key": "Content-Length",
-							"value": "16",
+							"value": "376",
 							"name": "Content-Length",
 							"description": "The length of the response body in octets (8-bit bytes)"
 						},
@@ -1892,13 +1743,13 @@
 						},
 						{
 							"key": "Date",
-							"value": "Sun, 26 Feb 2017 05:09:39 GMT",
+							"value": "Sun, 12 Mar 2017 08:09:34 GMT",
 							"name": "Date",
 							"description": "The date and time that the message was sent"
 						},
 						{
 							"key": "ETag",
-							"value": "W/\"10-w2ITKHXnqRh29gIzDhBGOA\"",
+							"value": "W/\"178-PYiIoJMOGL/SZ8xwwYzGhQ\"",
 							"name": "ETag",
 							"description": "An identifier for a specific version of a resource, often a message digest"
 						},
@@ -1917,7 +1768,7 @@
 					],
 					"cookies": [],
 					"mime": "",
-					"text": "\"using /deletes\"",
+					"text": "{\"message\":\"No query name was given\",\"description\":\"using /gets\",\"headers\":{\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate\",\"cache-control\":\"no-cache\",\"host\":\"drews122002-test.apigee.net\",\"postman-token\":\"3d8c385c-5d2d-42e6-bcc1-c460486ed745\",\"user-agent\":\"PostmanRuntime/3.0.11-hotfix.2\",\"x-forwarded-for\":\"73.229.143.95\",\"x-forwarded-port\":\"80\",\"x-forwarded-proto\":\"http\"}}",
 					"language": "json",
 					"previewType": "text",
 					"searchResultScrolledTo": -1,
@@ -1926,22 +1777,22 @@
 					"empty": false,
 					"failed": false,
 					"responseSize": {
-						"body": 16,
-						"header": 262
+						"body": 376,
+						"header": 264
 					},
 					"mimeType": "text",
 					"fileName": "response.json",
-					"dataURI": "data:application/json;base64, InVzaW5nIC9kZWxldGVzIg==",
+					"dataURI": "data:application/json;base64, eyJtZXNzYWdlIjoiTm8gcXVlcnkgbmFtZSB3YXMgZ2l2ZW4iLCJkZXNjcmlwdGlvbiI6InVzaW5nIC9nZXRzIiwiaGVhZGVycyI6eyJhY2NlcHQiOiIqLyoiLCJhY2NlcHQtZW5jb2RpbmciOiJnemlwLCBkZWZsYXRlIiwiY2FjaGUtY29udHJvbCI6Im5vLWNhY2hlIiwiaG9zdCI6ImRyZXdzMTIyMDAyLXRlc3QuYXBpZ2VlLm5ldCIsInBvc3RtYW4tdG9rZW4iOiIzZDhjMzg1Yy01ZDJkLTQyZTYtYmNjMS1jNDYwNDg2ZWQ3NDUiLCJ1c2VyLWFnZW50IjoiUG9zdG1hblJ1bnRpbWUvMy4wLjExLWhvdGZpeC4yIiwieC1mb3J3YXJkZWQtZm9yIjoiNzMuMjI5LjE0My45NSIsIngtZm9yd2FyZGVkLXBvcnQiOiI4MCIsIngtZm9yd2FyZGVkLXByb3RvIjoiaHR0cCJ9fQ==",
 					"state": {
 						"size": "normal"
 					},
-					"id": "9080f99d-2140-c4f7-2cc7-0d7976e20bbf",
-					"name": "deletes/deletes resp",
+					"id": "e1ca4015-b74a-f92e-9a26-62cb210b12ce",
+					"name": "get/gets",
 					"request": {
-						"url": "http://drews122002-test.apigee.net/homework2/deletes",
+						"url": "http://drews122002-test.apigee.net/homework2.2/gets",
 						"headers": [],
 						"data": null,
-						"method": "DELETE",
+						"method": "GET",
 						"dataMode": "params"
 					}
 				}
