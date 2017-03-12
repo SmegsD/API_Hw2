@@ -166,7 +166,7 @@ definitions:
     type: object
     properties:
       message:
-        type: integer
+        type: string
         description: returns 1 if successful
       description:
           type: string
